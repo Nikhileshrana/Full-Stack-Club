@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #outside_div
 {
@@ -15,4 +16,14 @@
 {
     border: 1px solid purple;
     background-color: aquamarine;
+=======
+.right
+{
+    border: 1px red solid;
+}
+
+.nav
+{
+    border: 2px green solid;
+>>>>>>> 3874213b411a67a898a45f27b3250bccd5d8f656
 }
