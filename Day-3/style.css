@@ -1,0 +1,28 @@
+#outerbox
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 10px;
+    /* font-size: 10vw;
+    font-size: 10vh;
+    font-size: 10%;
+    font-size: 10em;
+    font-size: 10rem; *//.,
+}
+
+
+.dark_theme
+{
+    color: white;
+    background-color: black;
+    border-radius: 70px;
+}
+
+.white_theme
+{
+    color: black;
+    background-color: rgb(222, 187, 215);
+    border-radius: 70px;
+}
