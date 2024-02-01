@@ -1,0 +1,16 @@
+#box-model
+{
+    border: 3px dotted purple;
+    text-align: center;
+    width:40%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#box-model>div
+{
+    border: 4px green solid;
+    margin: 5px ;
+    padding: 2px;
+    background-color: aqua;
+}
