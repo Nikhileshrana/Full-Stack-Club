@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.outermost{
+    border: 2px solid red;
+}
+.middlemost{
+    border: 1px solid blue;
+}
+.innermost{
+    border:1px solid green;
+}
