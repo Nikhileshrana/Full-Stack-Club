@@ -2,14 +2,82 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
+}
+body{
+    height:100vh;
+    width:100vw;
+    padding: 10px;
+    background-image: url(./bgg.jpg);
+    background-size: cover;
+    
+    
 }
 
 .outermost{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    height:250px;
+    width:250px;
+    margin: auto 0;
+    padding: 50px;
+    rotate: 45deg;
+    background-color: #5c4c3f;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 2px;
+    margin-top: -150px;
+    margin-left: 10px;
 }
 .middlemost{
-    border: 1px solid blue;
+    height:150px;
+    width:150px;
+    /* border: 1px solid blue; */
+    background-color: #77614c;
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 10px;
 }
 .innermost{
-    border:1px solid green;
+    /* border:1px solid green; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: #9a7054;
+    border-radius: 3px;
+    color: white;
+    height:80px;
+    width:90px;
+    font-size: 8px;
+    rotate:-45deg;
+    padding:5px;
+}
+
+#mail{
+    width:80px;
+    height:15px;
+}
+#pass{
+    width:80px;
+    height:15px;
+}
+.sub{
+    width:50px;
+    height:15px;
+    margin-top: 3px;
+    font-size: 7px;
+    color: #773e37;
+}
+#textt{
+    text-align: right;
+    width:50%;
+    margin-left: 50%;
+    color: rgb(249, 254, 200);
+    margin-top: 40px;
+}
+.well{
+    font-size: 50px;
+}
+.logg{
+    font-size: 30px;
+}
+.ddd{
+    font-size: 10px;
+    
 }
