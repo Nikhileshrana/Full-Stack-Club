@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Handjet:wght@500&family=Poor+Story&family=Single+Day&family=Workbench&display=swap');
+
+body{
+    font-family: 'Single Day', cursive;
+    color: ;
+}
+
 #box-model
 {
     border: 3px dotted purple;
