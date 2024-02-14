@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Handjet:wght@500&family=Poor+Story&family=Single+Day&family=Workbench&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Handjet:wght@500&family=Poor+Story&family=Single+Day&family=Workbench&display=swap');
 
 body{
     font-family: 'Single Day', cursive;
@@ -20,4 +20,17 @@ body{
     margin: 5px ;
     padding: 2px;
     background-color: aqua;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.outer{
+    margin:30px;
+    border:2px solid red;
+    height:40px;
+    padding: 40px;
+    padding-left: 30px;
 }
