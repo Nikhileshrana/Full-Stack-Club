@@ -11,7 +11,7 @@
     display: none;
     visibility: hidden;
 } */
-.comp{
+/* .comp{
     background-color: aqua;
 }
 .lap{
@@ -23,9 +23,9 @@
 .smart{
 
     background-color: blueviolet;
-}
+} */
 
-@media (min-width:1025px) and (max-width:1440px)
+@media   (max-width:1440px) and (min-width:1025px)
 {
     .comp{
         /* display: block; */
@@ -55,7 +55,7 @@
 /* :visited
 :hover
 :active */
-a{
+/* a{
     font-size: 40px;
     color:yellow;
 }
@@ -70,4 +70,27 @@ a:hover{
 
 a:visited{
     color: rgb(37, 231, 43);
+} */
+
+
+div{
+    height:50px;
+    border:2px solid red;
+    visibility: hidden;
+    /* display: none; */
 }
+
+.comp{
+    background-color: aqua;
+}
+.lap{
+    background-color: bisque;
+}
+.tab{
+    background-color: rgb(14, 235, 117);
+}
+.smart{
+
+    background-color: blueviolet;
+}
+
