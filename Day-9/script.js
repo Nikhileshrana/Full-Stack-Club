@@ -1,24 +1,22 @@
+console.log("True");
+
 document.getElementById("demo").innerHTML = "Hello Mitrr";
 document.getElementById("demo").style.background = "black";
 document.getElementById("demo").style.color = "orange";
 
 
-console.log("True");
+let marks = 35;
+const model = 8;
+
+console.log("Output :",marks);
+
+marks = 90;
+
+console.log("Output : ",marks);
+
+model = 9;
 
 
-
-var var_check = 10;
-let namert = 35;
-nikhil [5] = ("hello" , "hi");
-
-console.log(nikhil[1]);
-const huehue = "hemlo";
-
-console.log(var_check);
-
-console.log(huehue);
-
-console.log(namert);
 
 
 
