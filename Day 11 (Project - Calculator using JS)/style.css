@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2&family=Kalam:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+#title
+{
+    height: 10vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+#title>a
+{
+    border: rgb(178, 242, 242);
+    position: relative;
+    top: 20%;
+    padding: 1vh;
+    border-radius: 10px;
+    background-color: teal;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:rgb(178, 242, 242);
+}
+
+.container
+{
+    height: 60vh;
+    width: 60%;
+    margin: 0 auto;
+    margin-top : 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#screen
+{
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    height: 25%;
+    font-size: 5vw;
+    border: 2px teal solid;
+    color: teal;
+    overflow: hidden;
+}
+
+#keys
+{
+    display: grid;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+    height: 100%;
+    gap: 3px;
+    justify-content: space-around;
+}
+
+#keys>button
+{
+    background-color: rgb(178, 242, 242);
+    border: 0px;
+    transition: 0.5s ease;
+}
+
+#keys>button:hover
+{
+    background-color: teal;
+    transition: 0.5s ease;
+}
